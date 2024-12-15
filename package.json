@@ -1,0 +1,51 @@
+{
+  "name": "mcp-wordcounter",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol server for analyzing text documents with word and character counting capabilities",
+  "type": "module",
+  "bin": {
+    "mcp-wordcounter": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "text-analysis",
+    "word-count",
+    "character-count",
+    "llm",
+    "claude"
+  ],
+  "author": "Kenneth",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qpd-v/mcp-wordcounter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qpd-v/mcp-wordcounter/issues"
+  },
+  "homepage": "https://github.com/qpd-v/mcp-wordcounter#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> f5de311b851f717f8b701d4710a840fbe6b53992
