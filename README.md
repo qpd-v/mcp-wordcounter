@@ -2,6 +2,8 @@
 
 A Model Context Protocol server that provides tools for analyzing text documents, including counting words and characters. This server helps LLMs perform text analysis tasks by exposing simple document statistics functionality.
 
+<a href="https://glama.ai/mcp/servers/vvljyjlwj4"><img width="380" height="200" src="https://glama.ai/mcp/servers/vvljyjlwj4/badge" alt="Word Counter MCP server" /></a>
+
 ## Features
 
 - Count words in documents
