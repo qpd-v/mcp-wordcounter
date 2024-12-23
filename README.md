@@ -1,4 +1,5 @@
 # MCP Word Counter
+[![smithery badge](https://smithery.ai/badge/mcp-wordcounter)](https://smithery.ai/server/mcp-wordcounter)
 
 A Model Context Protocol server that provides tools for analyzing text documents, including counting words and characters. This server helps LLMs perform text analysis tasks by exposing simple document statistics functionality.
 
@@ -11,6 +12,15 @@ A Model Context Protocol server that provides tools for analyzing text documents
 
 ## Installation
 
+### Installing via Smithery
+
+To install Word Counter for Claude Desktop automatically via [Smithery](https://smithery.ai/server/mcp-wordcounter):
+
+```bash
+npx -y @smithery/cli install mcp-wordcounter --client claude
+```
+
+### Manual Installation
 ```bash
 npm install mcp-wordcounter
 ```
